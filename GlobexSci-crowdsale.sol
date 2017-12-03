@@ -84,7 +84,7 @@ interface GlobexSci {
 /**
  * @title  
  * @dev DatCrowdSale is a contract for managing a token crowdsale.
- * DatCrowdSale have a start and end date, where investors can make
+ * GlobexSciCrowdSale have a start and end date, where investors can make
  * token purchases and the crowdsale will assign them tokens based
  * on a token per ETH rate. Funds collected are forwarded to a refundable valut 
  * as they arrive.
@@ -140,7 +140,7 @@ contract GlobexSciPreSale is Ownable {
 
 
   
-  function DatCrowdPreSale() {
+  function GlobexSciPreSale() {
     wallet = msg.sender;
   }
 
