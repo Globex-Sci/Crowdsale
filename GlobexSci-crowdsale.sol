@@ -96,8 +96,8 @@ contract GlobexSciPreSale is Ownable {
   GlobexSci public token = GlobexSci(0xccb46aec99e38e09c2847dfd18e54ba2e59b1ba2);
 
   // start and end date where investments are allowed (both inclusive)
-  uint256 public startDate = 1512568800; //Wed, 06 Dec 2017 14:00:00 +0000
-  uint256 public endDate = 1515247200; //Sat, 06 Jan 2018 14:00:00 +0000
+  uint256 public startDate = 1512720000; //Wed, 08 Dec 2017 8:00:00 +0000
+  uint256 public endDate = 1515398400; //Sat, 06 Jan 2018 8:00:00 +0000
 
   // Minimum amount to participate
   uint256 public minimumParticipationAmount = 100000000000000000 wei; //0.1 ether
